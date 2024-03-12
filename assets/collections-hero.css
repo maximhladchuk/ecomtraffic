@@ -1,10 +1,8 @@
 /* -----------------------------------------
-* Custom styles section 
+* Style sheet file for collections-hero.liquid 
 * @author      Maxim <maxim.hladchuk@gmail.com>
 * @copyright   Copyright (c) 2023 GmbH 
 * ------------------------------------------ */
-
-/* Style sheet file for collections-hero.liquid */
 
 .hero-collections {
 	display: flex;
