@@ -1,5 +1,63 @@
 {
   "sections": {
+    "collections_hero_bckTAw": {
+      "type": "collections-hero",
+      "blocks": {
+        "banner_XT4eBa": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_289.jpg",
+            "title": "Make a scene.",
+            "subtitle": "Everything you need for a great party, from decor to drinks and games.",
+            "link_text": "find your scene",
+            "link": "shopify:\/\/collections\/all",
+            "background": "#00966e"
+          }
+        },
+        "banner_n7rYA7": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_282.jpg",
+            "title": "Make it extra.",
+            "subtitle": "Once you’ve chosen a scene, you can dial it up with fun a la carte add-ons.",
+            "link_text": "shop party supplies",
+            "link": "#",
+            "background": "#85abbd"
+          }
+        },
+        "banner_pK4tpY": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_2891.jpg",
+            "title": "Make it joyful.",
+            "subtitle": "Create the arrangement of your dreams with DIY kits from Wild & Flowers.",
+            "link_text": "shop florals",
+            "link": "#",
+            "background": "#e3ff21"
+          }
+        },
+        "banner_w44PaQ": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_2892.jpg",
+            "title": "Make it happen.",
+            "subtitle": "Need a bartender, caterer, or DJ? Just add \u2028to cart. It’s that easy.",
+            "link_text": "browse vendors",
+            "link": "#",
+            "background": "#bf91c4"
+          }
+        }
+      },
+      "block_order": [
+        "banner_XT4eBa",
+        "banner_n7rYA7",
+        "banner_pK4tpY",
+        "banner_w44PaQ"
+      ],
+      "settings": {
+        "title": "ABC"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -26,6 +84,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -69,6 +128,7 @@
     }
   },
   "order": [
+    "collections_hero_bckTAw",
     "image_banner",
     "featured_collection"
   ]
