@@ -1,0 +1,58 @@
+/* -----------------------------------------
+* Custom styles section 
+* @author      Maxim <maxim.hladchuk@gmail.com>
+* @copyright   Copyright (c) 2023 GmbH 
+* ------------------------------------------ */
+
+/* Style sheet file for collections-hero.liquid */
+
+.hero-collections {
+	display: flex;
+	flex-direction: column;
+}
+.hero-collections_title {
+	color: rgb(0, 0, 0);
+	font-size: 80px;
+	font-weight: 400;
+	line-height: 80px;
+	letter-spacing: 0%;
+	text-align: center;
+}
+
+.hero-collections_banner {
+	padding: 10px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+}
+.hero-collections_banner > * {
+	margin: 0;
+	text-align: center;
+	line-height: 1.1;
+}
+.hero-collections_banner-link {
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	width: fit-content;
+}
+.swiper {
+	/*
+	TODO: make responsive
+	*/
+	width: 100%;
+	height: 380px;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+.hero-collections_banner-title {
+	margin-top: 20px;
+	font-size: 32px;
+}

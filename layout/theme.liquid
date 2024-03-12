@@ -280,6 +280,22 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    <!-- TODO:
+    Font conflict figma - actual fonts showed
+    -->
+
+    <style>
+      @font-face {
+        font-family: 'Platform';
+        src: url("{{ 'Platform-Regular-Web.otf' | asset_url }}");
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">

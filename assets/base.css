@@ -71,6 +71,7 @@
   --shadow-visible: var(--media-shadow-visible);
 }
 
+
 /* base */
 
 .no-js:not(html) {
