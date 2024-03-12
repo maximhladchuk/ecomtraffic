@@ -3517,3 +3517,18 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+/* -----------------------------------------
+* Custom styles section 
+* @author      Maxim <maxim.hladchuk@gmail.com>
+* @copyright   Copyright (c) 2023 GmbH 
+* ------------------------------------------ */
+
+/* Header positioning (middle-left option) */
+.header--middle-left {
+  display: flex;
+  justify-content: space-between;
+}
+.header__inline-menu {
+  width: 100%;
+  text-align: end;
+}
