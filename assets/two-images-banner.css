@@ -1,0 +1,60 @@
+/* -----------------------------------------------
+* Styles for two images banner section  
+* @author      Maxim <maxim.hladchuk@gmail.com>
+* @copyright   Copyright (c) 2023 GmbH 
+---------------------------------------------- */
+
+.two-img-banner-wrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	margin-top: 80px;
+}
+.img-block {
+	width: calc(50% - 5px);
+	position: relative;
+}
+.img-block img {
+	width: 100%;
+}
+.img-block h2 {
+	font-size: 64px;
+}
+.img-block-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px 0;
+}
+.img-block-content > a {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 1px solid rgb(255, 255, 255);
+	font-family: 'Platform';
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+.img-block-content > h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.img-block h2 {
+	font-size: clamp(32px, 4vw + 1rem, 52px);
+}
+@media (max-width: 640px) {
+	.two-img-banner-wrapper {
+		flex-direction: column;
+	}
+	.img-block {
+		width: 100%;
+	}
+	.img-block-content > a {
+		font-size: 12px;
+	}
+}

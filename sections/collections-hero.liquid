@@ -32,7 +32,6 @@
 					</div>
 				</div>
 			{% endfor %}
-		<div class="swiper-pagination"></div>
 	</div>
 </div>
 </div>
@@ -42,16 +41,16 @@
     var heroSwiper = new Swiper(".hero-swiper", {
       slidesPerView: 1.2,
       spaceBetween: 10,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-			breakpoints: {   
-				620: {       
+			breakpoints: {
+				420: {       
+					slidesPerView: 2,       
+					spaceBetween: 10
+			 },
+				742: {       
 					 slidesPerView: 3,       
 					 spaceBetween: 10
 				},
-				748: {       
+				1000: {       
 					 slidesPerView: 4,       
 					 spaceBetween: 10
 				}

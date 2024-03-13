@@ -1,0 +1,91 @@
+{% comment %} 
+-----------------------------------------------
+* Homepage section with two images and links  
+* @author      Maxim <maxim.hladchuk@gmail.com>
+* @copyright   Copyright (c) 2023 GmbH 
+----------------------------------------------
+{% endcomment %}
+
+{{ 'two-images-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width two-img-banner">
+	<div class="two-img-banner-wrapper">
+		<div class="img-block">
+			<img src="{{ section.settings.image1 | img_url: 'master' }}" alt="">
+			<div class="img-block-content">
+				<h2 style="color: {{ section.settings.text_color }};" >{{ section.settings.title1 }}</h2>
+				<a style="color: {{ section.settings.text_color }};" href="{{ section.settings.link1 }}">{{ section.settings.link_text1 }}</a>
+			</div>
+		</div>
+
+		<div class="img-block">
+			<img src="{{ section.settings.image2 | img_url: 'master' }}" alt="">
+			<div class="img-block-content">
+				<h2 style="color: {{ section.settings.text_color }};" >{{ section.settings.title2 }}</h2>
+				<a style="color: {{ section.settings.text_color }};" href="{{ section.settings.link2 }}">{{ section.settings.link_text2 }}</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+  "name": "Two images banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+		{
+			"type": "text",
+			"id": "title1",
+			"label": "Title"
+		},
+		{
+			"type": "text",
+			"id": "link_text1",
+			"label": "Link Text"
+		},
+		{
+			"type": "url",
+			"id": "link1",
+			"label": "Link"
+		},
+		{
+			"type": "image_picker",
+			"id": "image1",
+			"label": "Image 1"
+		},
+		{
+			"type": "text",
+			"id": "title2",
+			"label": "Title 2"
+		},
+		{
+			"type": "text",
+			"id": "link_text2",
+			"label": "Link Text 2"
+		},
+		{
+			"type": "url",
+			"id": "link2",
+			"label": "Link 2"
+		},
+		{
+			"type": "image_picker",
+			"id": "image2",
+			"label": "Image 2"
+		},
+		{
+			"type": "color",
+			"id": "text_color",
+			"label": "Text Color"
+
+		}
+	],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Two images banner"
+    }
+  ]
+}
+{% endschema %}
