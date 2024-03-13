@@ -3540,3 +3540,9 @@ details-disclosure > details {
   font-size: 14px;
   letter-spacing: 3px;
 }
+.header-custom {
+	display: flex;
+}
+.header-custom .header-localization {
+  order: -1;
+}

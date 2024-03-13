@@ -1,0 +1,79 @@
+/* -----------------------------------------
+* Style sheet file for mobile-round-swiper.liquid 
+* @author      Maxim <maxim.hladchuk@gmail.com>
+* @copyright   Copyright (c) 2023 GmbH 
+* ------------------------------------------ */
+
+.round-swiper .swiper-container {
+	position: relative;
+	width: 60%;
+	margin: 0 auto;
+}
+.round-swiper .swiper-container .swiper-button-prev {
+	left: -50px;
+}
+.round-swiper .swiper-container .swiper-button-next {
+	right: -50px;
+}
+.round-swiper .swiper-container .swiper-pagination {
+	bottom: -30px !important;
+}
+.round-swiper .sample-slider img {
+	width: 100%;
+}
+.round-swiper .swiper-slide img {
+	border-radius: 50%;
+	aspect-ratio: 1/1;
+}
+.round-swiper .swiper-button-next,
+.round-swiper .swiper-button-prev {
+	display: block;
+}
+.round-swiper .swiper-button-prev:after,
+.round-swiper .swiper-button-next:after {
+	content: '';
+}
+.round-swiper .swiper-button-prev,
+.round-swiper .swiper-button-next {
+	filter: invert(1);
+	width: 35px;
+}
+.sample-slider {
+	border-radius: 50%;
+}
+.round-swiper-link_wrapper {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.round-swiper-link_wrapper a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+	font-family: 'Platform';
+	font-size: 12px;
+	margin-top: 7px;
+}
+.round-swiper-wrapper {
+	padding: 20px 0;
+}
+.round-swiper_title {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	margin-bottom: 30px;
+}
+.round-swiper_title-platform {
+	font-family: 'Platform';
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.round-swiper_title-display {
+	font-family: 'GT Super Display Italic';
+	font-size: 20px;
+	color: #fff;
+}
