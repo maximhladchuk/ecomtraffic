@@ -55,81 +55,87 @@
         "banner_w44PaQ"
       ],
       "settings": {
-        "title": "ABC"
+        "title": "HAVING FUN 101"
       }
     },
-    "image_banner": {
-      "type": "image-banner",
+    "two_images_banner_GmFcFk": {
+      "type": "two-images-banner",
+      "settings": {
+        "title1": "Housewarming Gifts for the Host",
+        "link_text1": "discover them all",
+        "link1": "#",
+        "image1": "shopify:\/\/shop_images\/Rectangle_324.png",
+        "title2": "The Limited-Edition Holiday Scene",
+        "link_text2": "shop the scene",
+        "link2": "#",
+        "image2": "shopify:\/\/shop_images\/Rectangle_324_74250a7a-c4db-40f1-bd45-c9c58faf00e0.png",
+        "text_color": "#ffffff"
+      }
+    },
+    "image_with_logo_gKEwwc": {
+      "type": "image-with-logo",
+      "custom_css": [
+        ".image-with-logo {margin-top: 40px;}"
+      ],
+      "settings": {
+        "title": "No occasion necessary.",
+        "image": "shopify:\/\/shop_images\/img.png",
+        "logo": "shopify:\/\/shop_images\/image_1_4518df27-363e-4224-875d-8c3a57514443.png",
+        "color": "#e3ff21",
+        "mobile": true
+      }
+    },
+    "mobile_round_swiper_DVXiwc": {
+      "type": "mobile-round-swiper",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "image_NpG4kh": {
+          "type": "image",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "image": "shopify:\/\/shop_images\/Rectangle_324_74250a7a-c4db-40f1-bd45-c9c58faf00e0.png"
           }
         },
-        "button": {
-          "type": "buttons",
+        "image_wX8KFx": {
+          "type": "image",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/Rectangle_324.png"
+          }
+        },
+        "image_Y7Qyfw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_2891.jpg"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "image_NpG4kh",
+        "image_wX8KFx",
+        "image_Y7Qyfw"
       ],
-      "disabled": true,
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "title1": "the scene",
+        "title2": "Supper Club",
+        "link": "#",
+        "link_text": "SHOP NOW",
+        "mobile": true,
+        "color": "#ffffff",
+        "color_bg": "#730503"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "collection_swiper_XhFLHR": {
+      "type": "collection-swiper",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "title": "PARTY A LA CARTE",
+        "collection": "sample",
+        "link_text": "SHOP ALL"
       }
     }
   },
   "order": [
     "collections_hero_bckTAw",
-    "image_banner",
-    "featured_collection"
+    "two_images_banner_GmFcFk",
+    "image_with_logo_gKEwwc",
+    "mobile_round_swiper_DVXiwc",
+    "collection_swiper_XhFLHR"
   ]
 }
