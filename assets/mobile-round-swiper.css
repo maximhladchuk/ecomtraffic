@@ -9,10 +9,10 @@
 	width: 60%;
 	margin: 0 auto;
 }
-.round-swiper .swiper-container .swiper-button-prev {
+.round-swiper .swiper-container .swiper-round-button-prev {
 	left: -50px;
 }
-.round-swiper .swiper-container .swiper-button-next {
+.round-swiper .swiper-container .swiper-round-button-prev {
 	right: -50px;
 }
 .round-swiper .swiper-container .swiper-pagination {
