@@ -11,9 +11,15 @@
 }
 .round-swiper .swiper-container .swiper-button-prev-round {
 	left: -50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .round-swiper .swiper-container .swiper-button-next-round {
 	right: -50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .round-swiper .swiper-container .swiper-pagination {
 	bottom: -30px !important;
