@@ -5,7 +5,7 @@
 * ------------------------------------------ */
 
 .collection-swiper_title {
-	font-family: "GT Super Display Light";
+	font-family: 'GT Super Display Light';
 	font-size: clamp(40px, 4vw + 1rem, 80px);
 	width: 100%;
 	text-align: center;
@@ -16,7 +16,7 @@
 	display: block;
 }
 .collection-swiper h3 {
-	font-family: "GT Super Display Italic";
+	font-family: 'GT Super Display Italic';
 	margin: 0;
 }
 .swiper-slide a {
@@ -29,32 +29,30 @@
 	padding: 20px;
 	background-color: #fff;
 }
-.collection-swiper-slide_content .price{
-	font-family: "Platform";
+.collection-swiper-slide_content .price {
+	font-family: 'Platform';
 	font-size: 14px;
 }
 .collection-swiper-wrapper {
-
 }
-.collection-swiper-container .swiper-button-prev:after, 
+.collection-swiper-container .swiper-button-prev:after,
 .collection-swiper-container .swiper-button-next:after {
-	content: "";
-
+	content: '';
 }
 
-.collection-swiper-container{
+.collection-swiper-container {
 	position: relative;
 	width: 92%;
 	margin: 0 auto;
 }
-.collection-swiper-container .swiper-button-prev{
+.collection-swiper-container .swiper-button-prev {
 	left: -40px;
 }
-.collection-swiper-container .swiper-button-next{
+.collection-swiper-container .swiper-button-next {
 	right: -40px;
 }
-.collection-swiper-container .swiper-pagination{
-	bottom: -30px!important;
+.collection-swiper-container .swiper-pagination {
+	bottom: -30px !important;
 }
 .collection-swiper_link-wrapper {
 	width: 100%;
@@ -77,8 +75,10 @@
 }
 @media (max-width: 640px) {
 	.collection-swiper-container .swiper-button-prev,
-	.collection-swiper-container .swiper-button-next{
+	.collection-swiper-container .swiper-button-next {
 		display: none;
 	}
-
+	.collection-swiper-container {
+		width: 100%;
+	}
 }
