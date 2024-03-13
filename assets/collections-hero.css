@@ -73,4 +73,14 @@
 		width: 100%;
 		height: auto;
 	}
+  .shadow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    z-index: 2;
+    display: block !important;
+    background: linear-gradient(270.00deg, rgb(244, 237, 229),rgba(244, 237, 229, 0) 100%);
+  }
 }
