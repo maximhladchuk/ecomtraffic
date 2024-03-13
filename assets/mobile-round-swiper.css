@@ -25,16 +25,16 @@
 	border-radius: 50%;
 	aspect-ratio: 1/1;
 }
-.round-swiper .swiper-button-next,
-.round-swiper .swiper-button-prev {
+.round-swiper .swiper-round-button-prev,
+.round-swiper .swiper-round-button-prev {
 	display: block;
 }
-.round-swiper .swiper-button-prev:after,
-.round-swiper .swiper-button-next:after {
+.round-swiper .swiper-round-button-prev:after,
+.round-swiper .swiper-round-button-prev:after {
 	content: '';
 }
-.round-swiper .swiper-button-prev,
-.round-swiper .swiper-button-next {
+.round-swiper .swiper-round-button-prev,
+.round-swiper .swiper-round-button-prev {
 	filter: invert(1);
 	width: 35px;
 }
